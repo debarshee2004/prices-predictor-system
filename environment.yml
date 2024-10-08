@@ -4,12 +4,12 @@
 #
 #    conda env create -f environment.yml
 #    conda env update --file environment.yml --prune
-#    conda env export --name environment_name_here > environment.yml
-#    conda env remove --name environment_name_here
+#    conda env export --name prices-predictor-system > environment.yml
+#    conda env remove --name prices-predictor-system
 #    conda env list
-#    conda activate environment_name_here
+#    conda activate prices-predictor-system
 
-name: environment_name_here
+name: prices-predictor-system
 channels:
   - anaconda
   - conda-forge
